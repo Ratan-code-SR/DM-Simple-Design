@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+
+
+/* moon button */
+img#moon {
+    width: 36px;
+    cursor: pointer;
+}
+:root{
+    --primary-color: #edf2fc;
+    --secondery-color:  #212121;  
+}
+.dark-theme{
+    --primary-color:black;
+    --secondery-color: #fff;
+}
+
+/* -------------navbar section here --------------- */
+.root{
+
+    background: var(--primary-color);
+}
+img.navbar-img {
+    width: 100px;
+    color: var(--secondery-color);
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: var(--secondery-color)!important;
+    font-weight: 600;
+}
+.navbar-toggler{
+    outline: none!important;
+    border: none!important;
+   
+    box-shadow: none!important;
+}
+
+
+
+
+
+
+/* -----------------home section here ---------------- */
+.col-md-6.right-content {
+    margin-top: 150px;
+   
+    color: var(--secondery-color);
+}
+
+.col-md-6.right-content h2 {
+    font-weight: 600;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+   
+}
+.col-md-6.right-content span {
+    color: red;
+}
+button.btn.btn-outline-info {
+    border: none;
+    background:var(--secondery-color);
+    text-transform: capitalize;
+   
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+
+.col-md-6.img-box {
+    right: 100px;
+    position: absolute;
+    width: 45%;
+    height: 80%;
+    bottom: 0;
+}
+
+.col-md-6.img-box img {
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition:bottom 1s, left 1s;
+}
+.col-md-6.img-box:hover .first-img{
+    bottom: 40px;
+}
+.col-md-6.img-box:hover .second-img{
+   left: 54%;
+}
